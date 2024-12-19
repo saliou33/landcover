@@ -40,7 +40,7 @@ The following R libraries are required:
 ## **How to Run**
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your_username/3d-landcover-senegal.git
+   git clone https://github.com/saliou33/landcover.git
    cd 3d-landcover-senegal
    ```
 
