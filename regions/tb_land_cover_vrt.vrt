@@ -1,0 +1,32 @@
+<VRTDataset rasterXSize="13399" rasterYSize="9667">
+  <SRS dataAxisToSRSAxisMapping="1,2">PROJCS["WGS 84 / UTM zone 28N",GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4326"]],PROJECTION["Transverse_Mercator"],PARAMETER["latitude_of_origin",0],PARAMETER["central_meridian",-15],PARAMETER["scale_factor",0.9996],PARAMETER["false_easting",500000],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["Easting",EAST],AXIS["Northing",NORTH],AUTHORITY["EPSG","32628"]]</SRS>
+  <GeoTransform>  2.2801000000000000e+05,  5.0008314830500659e+01,  0.0000000000000000e+00,  1.8454000000000000e+06,  0.0000000000000000e+00, -5.0008314830500659e+01</GeoTransform>
+  <VRTRasterBand dataType="Float32" band="1">
+    <NoDataValue>nan</NoDataValue>
+    <ColorInterp>Gray</ColorInterp>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">28P_20230101-20240101.tif_SEN.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="12055" RasterYSize="8186" DataType="Float32" BlockXSize="12055" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="12055" ySize="8185.607589329" />
+      <DstRect xOff="0" yOff="1482.75342313225" xSize="12052.9956276866" ySize="8184.24657686775" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">28Q_20230101-20240101.tif_SEN.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="11862" RasterYSize="1530" DataType="Float32" BlockXSize="11862" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="11862" ySize="1530" />
+      <DstRect xOff="0" yOff="0" xSize="11860.0277175959" ySize="1529.74560849113" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">29P_20230101-20240101.tif_SEN.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1731" RasterYSize="8205" DataType="Float32" BlockXSize="1731" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1731" ySize="8205" />
+      <DstRect xOff="11667.1571713752" yOff="1444.33412707696" xSize="1731.57562313969" ySize="8207.7284736344" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+</VRTDataset>
